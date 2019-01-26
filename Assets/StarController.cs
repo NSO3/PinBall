@@ -20,4 +20,17 @@ public class StarController : MonoBehaviour {
         //回転
         this.transform.Rotate(0, this.rotSpeed, 0);
     }
+
+    //衝突時に呼ばれる関数
+    void OnCollisionEnter(Collision other)
+    {
+        if (tag == "SmallStarTag")
+        {
+            BallController.score += 5;
+        }
+        else if (tag == "LargeStarTag")
+        {
+            BallController.score += 15;
+        }
+    }
 }

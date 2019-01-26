@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 23419838933450594}
   - component: {fileID: 136852549343748112}
   - component: {fileID: 114151532966388602}
+  - component: {fileID: 114102897953789494}
   m_Layer: 0
   m_Name: SmallStarPrefab
   m_TagString: SmallStarTag
@@ -85,6 +86,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1267293421327090}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &114102897953789494
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1267293421327090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de1b4904e7d5049eeae14ee7167bfa9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114151532966388602
 MonoBehaviour:
   m_ObjectHideFlags: 1
